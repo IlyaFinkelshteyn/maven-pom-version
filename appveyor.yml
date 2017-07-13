@@ -1,5 +1,5 @@
 version: 1.0.{build}
 install:
-- ps: iex ((new-object net.webclient).DownloadString('https://gist.githubusercontent.com/IlyaFinkelshteyn/cf03fce8c7c7d343542c4a29b850b046/raw'))
+- ps: iex ((new-object net.webclient).DownloadString('https://gist.githubusercontent.com/IlyaFinkelshteyn/cf03fce8c7c7d343542c4a29b850b046/raw/b2d8fc0bb20dcae7ba6460a5ea5747febec96df7/UpdateBuildVersion.ps1'))
 build: off
 test: off
